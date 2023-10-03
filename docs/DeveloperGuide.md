@@ -262,17 +262,17 @@ Customer-property management tool for property agents new to the real estate ind
 **Value proposition**:
 
 2 entities:
-    
+
 1. Customer:
     * Create :
       * Can add the types of property customer is looking for
     * Read :
       * Can check the types of property customer is looking for
-    * Update : 
+    * Update :
       * Can update the types of property customer is looking for
-    * Delete : 
+    * Delete :
       * Delete client profile
-    * Find : 
+    * Find :
       * Match customer to property
 2. Property
    * Create :
