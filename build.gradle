@@ -2,8 +2,14 @@ plugins {
     id 'java'
     id 'checkstyle'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
     id 'application'
     id 'jacoco'
+}
+
+javafx {
+    version = "17.0.7"
+    modules = [ 'javafx.controls' ]
 }
 
 mainClassName = 'seedu.address.Main'
